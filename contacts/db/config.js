@@ -1,4 +1,4 @@
-require('dotenv').config();
+ require('dotenv').config();
 const DB_CONFIG = process.env.DB_CONFIG || 'postgresql://contacts:contacts@localhost:5432/contacts';
 const { Pool } = require('pg');
 
